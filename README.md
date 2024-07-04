@@ -15,7 +15,7 @@ Default Hub information:
 
 ## Change information
 ### Change port
-- Default is 8081. Navigate to `docker-compose.yml` and replace port 8081. Please make sure not replace `:80`.
+- Default is `8081`. Navigate to `docker-compose.yml` and replace port 8081. Please make sure not replace `:80`.
 
 ### Change the secret
-- Default is MySecret. Navigate to `Caddyfile` and update `publisher_jwt` or `subscriber_jwt` to any value you want.
+- Default is `MySecret`. Navigate to `Caddyfile` and update `publisher_jwt` or `subscriber_jwt` to any value you want.
